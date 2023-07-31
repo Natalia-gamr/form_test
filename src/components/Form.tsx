@@ -29,8 +29,14 @@ export const Form = () => {
     <div className="container">
       <form className="form" id="descr" onSubmit={handleSubmit(onSubmit)}>
         <label htmlFor="descr">URL "Описание формы"</label>
+        <span className="span">
+          (https://64c668770a25021fde919b48.mockapi.io/descr)
+        </span>
         <input className="input" {...register("descr")} />
-        <label htmlFor="data">URL "Данные"</label>{" "}
+        <label htmlFor="data">URL "Данные"</label>
+        <span className="span">
+          (https://64c668770a25021fde919b48.mockapi.io/data)
+        </span>
         <input className="input" {...register("data")} />
         <button className="button" type="submit">
           Построить форму
