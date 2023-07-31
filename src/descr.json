@@ -1,0 +1,41 @@
+[
+    {
+        "id": "first",
+        "type": "input",
+        "placeholder": "Поле номер 1",
+        "dataType": "number",
+        "value": ""
+    },
+    {
+        "id": "second",
+        "type": "input",
+        "placeholder": "Поле номер 2",
+        "dataType": "text",
+        "value": ""     
+    },
+    {
+        "id": "third",
+        "type": "select",
+        "placeholder": "Выпадающий список",
+        "dataType": "text",      
+        "options": [
+            {
+                "value": "Красный"
+            },
+            {
+                "value": "Синий"
+            },
+            {
+                "value": "Зелёный"
+            }
+        ],
+        "value": ""
+    },
+    {
+        "id": "fourth",
+        "type": "input",
+        "placeholder": "Поле выбора даты",
+        "dataType": "date",    
+        "value": ""
+    }
+]

@@ -1,0 +1,24 @@
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form {
+  display: grid;
+  font-size: 14px;
+  margin: 20px;
+}
+
+.input {
+  
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.button {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: transparent;
+}

@@ -1,0 +1,18 @@
+[
+    {
+        "id": "first",    
+        "value": "7"       
+    },
+    {
+        "id": "second",
+        "value": "Мотоцикл"   
+    },
+    {
+        "id": "third",
+        "value": "Зелёный"
+    },
+    {
+        "id": "fourth",
+        "value": "2023-07-30"
+    }
+]
